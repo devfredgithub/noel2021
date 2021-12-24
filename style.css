@@ -93,6 +93,16 @@ a.bouton
 	
 }
 
+/*jeux*/
+.jeuxTous
+{max-width: 400px;
+	margin-top: 10px;
+}
+.jeux
+{
+	width: 100%;
+}
+
 footer
 {width: auto;
 	color: white;
