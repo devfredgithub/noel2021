@@ -1,23 +1,22 @@
-html
-{min: width 495px; ;
-	max-width: 500px;
-	margin-right: 0;
-	padding: 0;
-}
+
 body
-{
+{max-width: 400px;
 	background: rgb(152,13,37);
 	background: linear-gradient(0deg, rgba(152,13,37,1) 44%, rgba(167,9,54,1) 77%);
 	font-family: 'Pushster', cursive;
 	text-align: center;
-	
+}
+
+.message
+{
+	font-size: xx-large;
 }
 
 /*image*/
 .tailleS
 {
 	height: 80px;
-    width: 100%;
+    width: auto;
 	background-size: cover;
 }
 
@@ -28,6 +27,7 @@ body
 	position: relative;
 	z-index: -10;
     background-size: cover;
+	opacity: 0.5;
 }
 
 h1
@@ -40,6 +40,7 @@ h1
 {
 	position: absolute;
 	text-align: center;
+	padding-left: 20px;
 }
 
 .menu
@@ -59,9 +60,34 @@ h1
 	padding-bottom: 5px;
 }
 
+.buche
+{
+	background:#e52722 ;
+	margin-bottom: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+a.bouton
+{
+	width: 30%; ;
+	padding: 2px 10px;
+	height: 30px;
+	margin: 20px auto;
+	border: 2px solid black ;
+	border-radius: 15px 15px;
+	width: 50%;
+	
+}
+
 footer
 {width: auto;
 	color: white;
 	background: #e2062c;
     font-family: 'Courier New', Courier, monospace;
+	margin-top: 10px;
 }
