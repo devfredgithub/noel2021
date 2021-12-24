@@ -6,13 +6,26 @@ body
     margin: 0;
 }
 
+/*image*/
+.taille
+{height: 100px;
+
+}
+
 .menu
 {
     color: white;
     font-size: 40px;
     border-bottom: solid 2px;
 }
+
+.ligne
+{border: solid 1px;
+
+}
+
 footer
 {
     color: white;
+    background: #e2062c;
 }
