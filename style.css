@@ -10,19 +10,22 @@ body
 .message
 {
 	font-size: xx-large;
+	color: white;
+	margin-bottom: 10px;
 }
+
 
 /*image*/
 .tailleS
 {
-	height: 80px;
+	height: 150px;
     width: auto;
 	background-size: cover;
 }
 
 .taille
 {
-	height: auto;
+	height: 300px;
     width: 100%;
 	position: relative;
 	z-index: -10;
@@ -34,29 +37,34 @@ h1
 {
 	font-size: 1.2em;
 	margin-bottom: 0;
+	color: white;
 }
 
 .menuglobal
 {
 	position: absolute;
 	text-align: center;
-	padding-left: 20px;
+	padding: 20px 50px 20px 10px;
+
 }
 
 .menu
 {
 	color: white;
-	font-size: 40px;
+	font-size: 80px;
 	text-align: center;
 }
 
 .ligne
 {
-	border: solid 1px;
+	border: solid 1px #e2062c;
+	width: 30%;
+	margin-left: 50px;
 }
 
 .description
 {
+	color: white;
 	padding-bottom: 5px;
 }
 
@@ -69,16 +77,17 @@ h1
 a
 {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 a.bouton
 {
-	width: 30%; ;
+	font-size: xx-large;
+	width: 40%; ;
 	padding: 2px 10px;
-	height: 30px;
+	height: 300px;
 	margin: 20px auto;
-	border: 2px solid black ;
+	border: 2px solid white ;
 	border-radius: 15px 15px;
 	width: 50%;
 	
