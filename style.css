@@ -9,4 +9,10 @@ body
 .menu
 {
     color: white;
+    font-size: 40px;
+    border-bottom: solid 2px;
+}
+footer
+{
+    color: white;
 }
