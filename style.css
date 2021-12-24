@@ -1,11 +1,16 @@
-
+html
+{min: width 495px; ;
+	max-width: 500px;
+	margin-right: 0;
+	padding: 0;
+}
 body
-{max-width: 600px;
+{
 	background: rgb(152,13,37);
 	background: linear-gradient(0deg, rgba(152,13,37,1) 44%, rgba(167,9,54,1) 77%);
 	font-family: 'Pushster', cursive;
 	text-align: center;
-	margin: 0;
+	
 }
 
 /*image*/
@@ -14,14 +19,12 @@ body
 	height: 80px;
     width: 100%;
 	background-size: cover;
-    padding-left: auto;
-    padding-right: auto;
 }
 
 .taille
 {
 	height: auto;
-    width: auto;
+    width: 100%;
 	position: relative;
 	z-index: -10;
     background-size: cover;
