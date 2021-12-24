@@ -21,6 +21,7 @@ body
 	height: auto;
 	position: relative;
 	z-index: -10;
+    background-size: cover;
 }
 
 h1
@@ -56,4 +57,5 @@ footer
 {
 	color: white;
 	background: #e2062c;
+    font-family: 'Courier New', Courier, monospace;
 }
