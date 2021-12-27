@@ -1,6 +1,6 @@
 
 body
-{max-width: 400px;
+{
 	background: rgb(152,13,37);
 	background: linear-gradient(0deg, rgba(152,13,37,1) 44%, rgba(167,9,54,1) 77%);
 	font-family: 'Pushster', cursive;
@@ -93,11 +93,19 @@ a.bouton
 	
 }
 
+.jeuxPhotos
+{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 10px;
+}
+
 /*jeux*/
 .jeuxTous
-{max-width: 400px;
+{
 	margin-top: 10px;
 }
+
 .jeux
 {
 	width: 100%;
@@ -116,4 +124,41 @@ footer
 	background: #e2062c;
     font-family: 'Courier New', Courier, monospace;
 	margin-top: 10px;
+}
+
+@media all and (min-width: 750px)
+{
+body
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.message
+{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+
+.menuglobal
+{width: 100%
+}
+
+.ligne
+{
+	width: 100%
+}
+
+.jeuxPhotos
+{
+	margin-top: 100px;
+}
+
+footer
+ {
+	 margin-top: 100px
+
+};
+
 }
