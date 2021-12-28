@@ -14,22 +14,21 @@ body
 	margin-bottom: 10px;
 }
 
-
 /*image*/
 .tailleS
 {
 	height: 150px;
-    width: auto;
+	width: auto;
 	background-size: cover;
 }
 
 .taille
 {
 	height: 300px;
-    width: 100%;
+	width: 100%;
 	position: relative;
 	z-index: -10;
-    background-size: cover;
+	background-size: cover;
 	opacity: 0.5;
 }
 
@@ -45,7 +44,6 @@ h1
 	position: absolute;
 	text-align: center;
 	padding: 20px 50px 20px 10px;
-
 }
 
 .menu
@@ -83,14 +81,14 @@ a
 a.bouton
 {
 	font-size: xx-large;
-	width: 40%; ;
+	width: 40%;
+	;
 	padding: 2px 10px;
 	height: 300px;
 	margin: 20px auto;
 	border: 2px solid white ;
 	border-radius: 15px 15px;
 	width: 50%;
-	
 }
 
 .jeuxPhotos
@@ -118,47 +116,63 @@ a.bouton
 	width: 100%;
 }
 
+.groupePhoto
+{
+	margin-top: 50px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20px;
+}
+
+.photo
+{
+	margin: 10px;
+	width: 40%;
+	height: 400px;
+	object-fit: cover;
+}
+
 footer
-{width: auto;
+{
+	width: auto;
 	color: white;
 	background: #e2062c;
-    font-family: 'Courier New', Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
 	margin-top: 10px;
 }
 
 @media all and (min-width: 750px)
 {
-body
-{
-	margin-right: 0;
-	margin-left: 0;
-}
+	body
+	{
+		margin-right: 0;
+		margin-left: 0;
+	}
 
-.message
-{
-	margin-top: 50px;
-	margin-bottom: 30px;
-	font-size: 50px;
-}
+	.message
+	{
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 50px;
+	}
 
-.menuglobal
-{width: 100%
-}
+	.menuglobal
+	{
+	width: 100%}
 
-.ligne
-{
-	width: 100%
-}
+	.ligne
+	{
+	width: 100%}
 
-.jeuxPhotos
-{
-	margin-top: 100px;
-}
+	.jeuxPhotos
+	{
+		margin-top: 100px;
+	}
 
-footer
- {
-	 margin-top: 100px
+	footer
+	{
+	margin-top: 100px}
 
-};
-
+	;
 }
